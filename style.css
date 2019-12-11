@@ -1,4 +1,10 @@
 
+.container-fluid{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+}
 .container{
     position: relative;
     overflow: hidden;
@@ -126,42 +132,7 @@ hr {
     text-decoration: none;
 }
 
-.whitepolocka1{
-    font-weight: 900; 
-    font-size: 18px; 
-    color:#333333; 
-    margin-bottom: 10px;
-}
-.whitepolocka2{
-    margin-bottom: 10px;
-}
-.container{
-    display: flex;
-}
-.brand-bar{
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color:#c3c3c5 ;
-    font-size: 13px;
-    align-items: center;
-    border: 2px solid #b7b7b7 ;
-    box-shadow: 0px 0px 1px 1px #b7b7b7;
-}
-.sm {
-    color: #cccccc;
 
-}
-.sm:hover{
-    color: #a8a7a7;
-}
-
-.social-media{
-    display: flex;
-    align-items: center;
-    justify-items: flex-end;
-    color: #cccccc;
-}
 
 @media only screen and (max-device-width: 770px){
     .mybutton{
@@ -180,7 +151,7 @@ hr {
     .social-media{
         font-size: 5px;
     }
-    .whitepolocka1{
+    .whitepoloska1{
         margin-bottom: 0px;
     }
     
@@ -207,14 +178,106 @@ hr {
     .form-control
     {
         max-width: 250px;
-        margin:auto;
-        
+        margin:auto;      
+    }
+
+    .social-media{
+        font-size: 2em !important;
     }
 
 }
 
-.features{
-    
+
+
+
+ .whitepoloska1{
+    font-weight: 900; 
+    font-size: 18px; 
+    color:#333333; 
+    margin-bottom: 10px;
+}
+.whitepoloska2{
+    margin-bottom: 10px;
+}
+
+.sm {
+    color: #cccccc;
+
+}
+.sm:hover{
+    color: #a8a7a7;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+.brand-bar{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#c3c3c5 ;
+    font-size: 13px;
+    align-items: center;
+    border: 2px solid #b7b7b7 ;
+    box-shadow: 0px 0px 1px 1px #b7b7b7;
 }
 
 
+
+.features1{
+    display: block;
+    padding-top: 145px;
+    padding-bottom: 120px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .show>.nav-link {
+    background-color: #ff8b38;
+    color: white;
+    border: 1px solid white;
+}
+
+.nav-link:hover{
+color: white;
+}
+
+.tab-content{
+    float: right;
+    font-size: 14px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px !important;
+    height: 110px !important;
+    color: white;
+    text-decoration: none !important;
+}
+
+.nav-tabs{
+    max-width: 110px !important;
+    background-color: #333333;
+    margin: 0px !important;
+}
+
+.town
+{
+    width: 320px;
+    height: 260px;
+}
+
+.download{
+    border: 1px solid white;
+    color: white;
+    background-color:  #ff8b38 ;
+    border-radius: 5px;
+}
+
+.download:hover, .download:focus{
+    background-color: #ffc498; 
+    color:white;
+    text-decoration: none;
+}
