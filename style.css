@@ -12,17 +12,15 @@
 }
 
 .logo{
-    color: orangered;
+    color: #ff8b38;
     position: relative;
 }
 
 .logo:before{
-    content: 'AXIT';
+    content: 'AX';
     color: white;
     position: absolute;
-    width: 60%;
     overflow: hidden;
-    
 }
 
 .panel{
@@ -30,24 +28,31 @@
     align-content: flex-end !important;
 }
 
-.nav-link{
+.p{
     margin-left: 30px;
 }
 
-a{
+.p{
     color:white;
 }
 
-a:hover{
+.p:hover{
     color:white;
     text-decoration: none;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right:0px;
 }
 
 main{
     background-color: #9a9a9a;
     font-family: 'Open Sans', sans-serif;
     font-size: 29px;
+    width: auto;
     padding-top: 107px;
+    padding-bottom: 140px;
     color:white;
 }
 
@@ -58,7 +63,6 @@ main{
     color: black;
     font-size: 20px;
     font-weight: 800;
-    width:360px;
 }
 
 hr {
@@ -74,11 +78,10 @@ hr {
 .mybutton{
     border: 1px solid white;
     color: white;
-    
     margin-top: 80px;
     border-radius: 0px;
 }
-.mybutton:hover{
+.mybutton:hover, .mybutton:focus{
     background-color: #ffffff; 
     color:black;
     text-decoration: none;
@@ -123,14 +126,91 @@ hr {
     text-decoration: none;
 }
 
-footer{
-
+.whitepolocka1{
+    font-weight: 900; 
+    font-size: 18px; 
+    color:#333333; 
+    margin-bottom: 10px;
 }
-
-.footer-main{
+.whitepolocka2{
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+}
+.brand-bar{
     background-color: white;
-    height: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#c3c3c5 ;
+    font-size: 13px;
+    align-items: center;
+    border: 2px solid #b7b7b7 ;
+    box-shadow: 0px 0px 1px 1px #b7b7b7;
+}
+.sm {
+    color: #cccccc;
+
+}
+.sm:hover{
+    color: #a8a7a7;
 }
 
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    color: #cccccc;
+}
+
+@media only screen and (max-device-width: 770px){
+    .mybutton{
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    main{
+        padding-top: 20px;
+        padding-bottom:30px;
+    }
+
+    .brand-bar{
+        font-size: 10px; 
+    }
+
+    .social-media{
+        font-size: 5px;
+    }
+    .whitepolocka1{
+        margin-bottom: 0px;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-device-width: 415px){
+    .profile-heading{
+       max-width: 300px; 
+       font-size:15px !important;
+    }
+    .profile-text{
+        max-width: 300px; 
+
+    }
+    
+    button{
+        max-width: 280px;
+    }
+
+    .form-control
+    {
+        max-width: 250px;
+        margin:auto;
+        
+    }
+
+}
 
 
