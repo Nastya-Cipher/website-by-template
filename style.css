@@ -1,10 +1,4 @@
 
-.container-fluid{
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-}
 .container{
     position: relative;
     overflow: hidden;
@@ -61,7 +55,9 @@ main{
     padding-bottom: 140px;
     color:white;
 }
-
+main .container{
+    display: flex;
+}
 
 .profile-heading{
     background-color: #f5f5f5;
@@ -71,13 +67,13 @@ main{
     font-weight: 800;
 }
 
-hr {
+.white {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 0px;
     width: 67px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     border-width: 2px 0 0 0;
 }
 
@@ -118,6 +114,7 @@ hr {
 
 .getstart{
     margin-top: 50px;
+    padding: 0px ;
     background-color: #ff9b51;
     color:white;
     width: 360px;
@@ -132,85 +129,14 @@ hr {
     text-decoration: none;
 }
 
-
-
-@media only screen and (max-device-width: 770px){
-    .mybutton{
-        margin-bottom: 15px;
-        margin-top: 20px;
-    }
-    main{
-        padding-top: 20px;
-        padding-bottom:30px;
-    }
-
-    .brand-bar{
-        font-size: 10px; 
-    }
-
-    .social-media{
-        font-size: 5px;
-    }
-    .whitepoloska1{
-        margin-bottom: 0px;
-    }
-    
-}
-
-
-
-
-
-@media only screen and (max-device-width: 415px){
-    .profile-heading{
-       max-width: 300px; 
-       font-size:15px !important;
-    }
-    .profile-text{
-        max-width: 300px; 
-
-    }
-    
-    button{
-        max-width: 280px;
-    }
-
-    .form-control
-    {
-        max-width: 250px;
-        margin:auto;      
-    }
-
-    .social-media{
-        font-size: 2em !important;
-    }
-
-}
-
-
-
-
- .whitepoloska1{
+.whitepolocka-one{
     font-weight: 900; 
     font-size: 18px; 
     color:#333333; 
     margin-bottom: 10px;
 }
-.whitepoloska2{
+.whitepolocka-two{
     margin-bottom: 10px;
-}
-
-.sm {
-    color: #cccccc;
-
-}
-.sm:hover{
-    color: #a8a7a7;
-}
-
-.social-media{
-    display: flex;
-    align-items: center;
 }
 
 .brand-bar{
@@ -223,13 +149,27 @@ hr {
     border: 2px solid #b7b7b7 ;
     box-shadow: 0px 0px 1px 1px #b7b7b7;
 }
+.sm {
+    color: #cccccc;
+
+}
+.sm:hover{
+    color: #a8a7a7;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    color: #cccccc;
+}
 
 
-
-.features1{
+.features-one{
     display: block;
     padding-top: 145px;
     padding-bottom: 120px;
+    background-color: #f5f5f5;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .show>.nav-link {
@@ -263,10 +203,18 @@ color: white;
     margin: 0px !important;
 }
 
-.town
-{
-    width: 320px;
-    height: 260px;
+.tab-content-one{
+    font-weight: 900; 
+    font-size: 17px; 
+    margin-bottom: 55px;
+}
+
+.tab-content-two{
+    margin-bottom: 30px
+}
+
+.tab-content-three{
+    margin-bottom: 30px
 }
 
 .download{
@@ -281,3 +229,237 @@ color: white;
     color:white;
     text-decoration: none;
 }
+
+.features-two{
+    padding-top: 108px;
+    padding-bottom: 135px;
+    
+}
+
+.city_in_the_fog{
+    width: 455px;
+    height: 305px;
+}
+
+.orange{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    width: 67px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    color: #ff8b38 !important;
+}
+
+.feat_title{
+    font-weight: 900;
+}
+
+.features-three{
+    background-color: #f5f5f5;
+    padding-top: 108px;
+    padding-bottom: 135px;
+}
+
+.gray_see{
+    width: 455px;
+    height: 305px;
+}
+
+.Process{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.proc_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.orange_center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 67px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    color: #ff8b38 !important;
+}
+
+.proc_undtex{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.col-cen{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.proc_tit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+@media only screen and (max-device-width: 992px){
+    
+    .feat_title{
+        margin-top: 25px ;
+    }
+
+    .something{
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+
+}
+@media only screen and (max-device-width: 768px){
+    .mybutton{
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    main{
+        padding-top: 20px;
+        padding-bottom:30px;
+    }
+
+    .brand-bar{
+        font-size: 10px; 
+    }
+
+    .social-media{
+        font-size: 5px;
+    }
+    .whitepolocka-one{
+        margin-bottom: 0px;
+    }
+    
+    .features-one{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    
+
+    .nav-link{
+        align-items: center;
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .nav-tabs{
+        max-width: 180px !important;
+        padding: 0px !important;
+        display: flex;
+        justify-items: center;
+        margin-bottom: 20px !important;
+    }
+
+    .tab-content-one{
+        margin-bottom: 10px;
+    }
+
+    .tab-content-two{
+        margin-bottom: 10px
+    }
+    
+    .tab-content-three{
+        margin-bottom: 25px
+    }
+    
+    .download{
+       margin-bottom: 10px;
+    }
+
+    .tab-content{
+        height: 270px;
+    }
+
+    .city_in_the_fog{
+        width: 300px;
+        height: 200px;
+    }
+
+    .gray_see{
+        width: 300px;
+        height: 200px;
+    }
+
+    .features-two{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .features-three{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .town{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Process{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+    .proc_tit{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .proc_undtex{
+        margin-bottom: 15px;
+    }
+
+    .col-cen{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-device-width: 415px){
+    .profile-heading{
+        min-width: 280 !important; 
+       font-size:15px !important;
+    }
+    .profile-text{
+        min-width: 280 !important;
+    }
+    
+    button{
+        max-width: 280px;
+    }
+
+    .form-control
+    {
+        max-width: 250px;
+        margin:auto;
+        
+    }
+    .town{
+        margin-top: 100px;
+        width: 260px;
+        height: 160px;
+    }
+    .city_in_the_fog{
+        width: 260px;
+        height: 160px;
+    }
+
+    .gray_see{
+        width: 260px;
+        height: 160px;
+    }
+
+    
+}
+
+
