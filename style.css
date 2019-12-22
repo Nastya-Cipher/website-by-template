@@ -55,7 +55,9 @@ main{
     padding-bottom: 140px;
     color:white;
 }
-
+main .container{
+    display: flex;
+}
 
 .profile-heading{
     background-color: #f5f5f5;
@@ -65,13 +67,13 @@ main{
     font-weight: 800;
 }
 
-hr {
+.white {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 0px;
     width: 67px;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     border-width: 2px 0 0 0;
 }
 
@@ -112,6 +114,7 @@ hr {
 
 .getstart{
     margin-top: 50px;
+    padding: 0px ;
     background-color: #ff9b51;
     color:white;
     width: 360px;
@@ -126,18 +129,16 @@ hr {
     text-decoration: none;
 }
 
-.whitepolocka1{
+.whitepolocka-one{
     font-weight: 900; 
     font-size: 18px; 
     color:#333333; 
     margin-bottom: 10px;
 }
-.whitepolocka2{
+.whitepolocka-two{
     margin-bottom: 10px;
 }
-.container{
-    display: flex;
-}
+
 .brand-bar{
     background-color: white;
     padding-top: 10px;
@@ -163,7 +164,159 @@ hr {
     color: #cccccc;
 }
 
-@media only screen and (max-device-width: 770px){
+
+.features-one{
+    display: block;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-color: #f5f5f5;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .show>.nav-link {
+    background-color: #ff8b38;
+    color: white;
+    border: 1px solid white;
+}
+
+.nav-link:hover{
+color: white;
+}
+
+.tab-content{
+    float: right;
+    font-size: 14px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px !important;
+    height: 110px !important;
+    color: white;
+    text-decoration: none !important;
+}
+
+.nav-tabs{
+    max-width: 110px !important;
+    background-color: #333333;
+    margin: 0px !important;
+}
+
+.tab-content-one{
+    font-weight: 900; 
+    font-size: 17px; 
+    margin-bottom: 55px;
+}
+
+.tab-content-two{
+    margin-bottom: 30px
+}
+
+.tab-content-three{
+    margin-bottom: 30px
+}
+
+.download{
+    border: 1px solid white;
+    color: white;
+    background-color:  #ff8b38 ;
+    border-radius: 5px;
+}
+
+.download:hover, .download:focus{
+    background-color: #ffc498; 
+    color:white;
+    text-decoration: none;
+}
+
+.features-two{
+    padding-top: 108px;
+    padding-bottom: 135px;
+    
+}
+
+.city_in_the_fog{
+    width: 455px;
+    height: 305px;
+}
+
+.orange{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    width: 67px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    color: #ff8b38 !important;
+}
+
+.feat_title{
+    font-weight: 900;
+}
+
+.features-three{
+    background-color: #f5f5f5;
+    padding-top: 108px;
+    padding-bottom: 135px;
+}
+
+.gray_see{
+    width: 455px;
+    height: 305px;
+}
+
+.Process{
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.proc_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.orange_center{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 67px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    color: #ff8b38 !important;
+}
+
+.proc_undtex{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.col-cen{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.proc_tit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+@media only screen and (max-device-width: 992px){
+    
+    .feat_title{
+        margin-top: 25px ;
+    }
+
+    .something{
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    
+
+}
+@media only screen and (max-device-width: 768px){
     .mybutton{
         margin-bottom: 15px;
         margin-top: 20px;
@@ -180,10 +333,92 @@ hr {
     .social-media{
         font-size: 5px;
     }
-    .whitepolocka1{
+    .whitepolocka-one{
         margin-bottom: 0px;
     }
     
+    .features-one{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    
+
+    .nav-link{
+        align-items: center;
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .nav-tabs{
+        max-width: 180px !important;
+        padding: 0px !important;
+        display: flex;
+        justify-items: center;
+        margin-bottom: 20px !important;
+    }
+
+    .tab-content-one{
+        margin-bottom: 10px;
+    }
+
+    .tab-content-two{
+        margin-bottom: 10px
+    }
+    
+    .tab-content-three{
+        margin-bottom: 25px
+    }
+    
+    .download{
+       margin-bottom: 10px;
+    }
+
+    .tab-content{
+        height: 270px;
+    }
+
+    .city_in_the_fog{
+        width: 300px;
+        height: 200px;
+    }
+
+    .gray_see{
+        width: 300px;
+        height: 200px;
+    }
+
+    .features-two{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .features-three{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+
+    .town{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Process{
+        padding-top: 30px;
+        padding-bottom: 30px; 
+    }
+    .proc_tit{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .proc_undtex{
+        margin-bottom: 15px;
+    }
+
+    .col-cen{
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -192,12 +427,11 @@ hr {
 
 @media only screen and (max-device-width: 415px){
     .profile-heading{
-       max-width: 300px; 
+        min-width: 280 !important; 
        font-size:15px !important;
     }
     .profile-text{
-        max-width: 300px; 
-
+        min-width: 280 !important;
     }
     
     button{
@@ -210,7 +444,22 @@ hr {
         margin:auto;
         
     }
+    .town{
+        margin-top: 100px;
+        width: 260px;
+        height: 160px;
+    }
+    .city_in_the_fog{
+        width: 260px;
+        height: 160px;
+    }
 
+    .gray_see{
+        width: 260px;
+        height: 160px;
+    }
+
+    
 }
 
 
